@@ -26,6 +26,8 @@ import List from '@ckeditor/ckeditor5-list/src/list';
 import MediaEmbed from '@ckeditor/ckeditor5-media-embed/src/mediaembed';
 import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph';
 import PasteFromOffice from '@ckeditor/ckeditor5-paste-from-office/src/pastefromoffice';
+import Subscript from '@ckeditor/ckeditor5-basic-styles/src/subscript';
+import Superscript from '@ckeditor/ckeditor5-basic-styles/src/superscript';
 import Table from '@ckeditor/ckeditor5-table/src/table';
 import TableToolbar from '@ckeditor/ckeditor5-table/src/tabletoolbar';
 import TextTransformation from '@ckeditor/ckeditor5-typing/src/texttransformation';
@@ -54,6 +56,8 @@ ClassicEditor.builtinPlugins = [
 	MediaEmbed,
 	Paragraph,
 	PasteFromOffice,
+	Subscript,
+	Superscript,
 	Table,
 	TableToolbar,
 	TextTransformation
@@ -70,6 +74,8 @@ ClassicEditor.defaultConfig = {
 			'link',
 			'bulletedList',
 			'numberedList',
+			'subscript',
+			'superscript',
 			'|',
 			'indent',
 			'outdent',
